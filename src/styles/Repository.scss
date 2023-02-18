@@ -1,0 +1,156 @@
+.repository{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid rgb(0, 0, 0,0.3);
+    border-bottom: 3px solid rgb(0, 0, 0,0.3);
+    &__title{
+        margin-top: 20px;
+        border-bottom: 3px solid rgb(0, 89, 255);
+        h3{
+            font-size: 20px;
+            font-weight: bolder;
+            text-transform: uppercase;
+            text-align: center;
+        }}
+        &__body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            margin: 20px;
+            border: 10px solid rgba(253, 31, 11, 0.867);
+            border-radius: 15px;
+            text-align: center;
+            background-color:  rgb(255, 174, 0);
+            &--example{
+                color: black;
+                p{
+                    font-size: 20px;
+                    padding: 0px 20px;
+                }
+                .fa-person-digging{
+                    font-size: 50px;
+                    padding: 10px;
+                }
+            }
+        }
+        &__github{
+            padding-bottom: 15px;
+            p{
+                font-size: 16px;
+                text-align: center;
+                margin: 10px 0 30px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                padding: 5px 10px;
+                border-radius: 10px;
+                box-shadow: 10px 10px rgb(0, 89, 255);
+                border: 3px solid rgb(0, 89, 255);
+                transition: .3s;
+            }
+            a:hover{
+                background-color: rgba(44, 117, 253, 0.7);
+            }
+        }
+}
+
+@media (min-width:576px) {
+    .repository{
+        &__title{
+            margin-top: 20px;
+            h3{
+                font-size: 22px;
+            }}
+            &__body{
+                margin: 20px;
+                border-radius: 15px;
+                &--example{
+                    p{
+                        font-size: 25px;
+                        padding: 0px 20px;
+                    }
+                    .fa-person-digging{
+                        font-size: 50px;
+                        padding: 10px;
+                    }
+                }
+            }
+            &__github{
+                p{
+                    font-size: 18px;
+                }
+            }
+    }
+}
+@media (min-width:768px) {
+    .repository{
+        &__title{
+            margin-top: 20px;
+            h3{
+                font-size: 25px;
+            }}
+            &__body{
+                margin: 20px;
+                border-radius: 15px;
+                &--example{
+                    p{
+                        font-size: 25px;
+                        padding: 0px 20px;
+                    }
+                    .fa-person-digging{
+                        font-size: 60px;
+                        padding: 10px;
+                    }
+                }
+            }
+            &__github{
+                p{
+                    font-size: 20px;
+                }
+            }
+    }
+}
+@media (min-width:992px) {
+    .repository{
+        &__title{
+            h3{
+                font-size: 28px;
+            }}
+    }
+}
+@media (min-width:1200px) {
+    .repository{
+        &__title{
+            margin-top: 20px;
+            h3{
+                font-size: 30px;
+            }}
+            &__body{
+                margin: 20px;
+                border-radius: 15px;
+                &--example{
+                    
+                    .fa-person-digging{
+                        font-size: 50px;
+                    }
+                }
+            }
+            &__github{
+                p{
+                    font-size: 20px;
+                }
+            }
+    }
+    }
+@media (min-width:1400px) {
+    .repository{
+        &__title{
+            h3{
+                font-size: 32px;
+            }}
+    }
+    }
