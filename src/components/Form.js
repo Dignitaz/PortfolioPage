@@ -19,23 +19,8 @@ const Form = () => {
   const hanldeMsgChange = (e) => {
     setMsgInput(e.target.value);
   };
-
-  // // const cleanForm = () => {
-  // setAuthorInput({
-  //   authorInput: "",
-  // });
-  // setEmailInput({
-  //   emailInput: "",
-  // });
-  // setMsgInput({
-  //   msgInput: "",
-  // });
-  // //   console.log("TWOJA STARA XDDDD");
-  // // };
-
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log("KURWA");
     if (authorInput === "") {
       alert(`${usedDictionary.form_msg1}`);
     } else if (emailInput === "") {

@@ -59,17 +59,17 @@ export const dictionary = [
     aboutmesection_description_4:
       "Jesteś gościem mojej pierwszej opublikowanej strony !",
     aboutmesection_description_5:
-      " Czuj się jak w domu ! Feedback jest bardziej niż konieczny :)",
+      "Czuj się jak w domu ! Feedback jest bardziej niż konieczny :)",
     aboutmesection_description_6: "Yo !",
     skills_title: "Technologie ,których używam i wciąż się uczę",
     repository_title: "Moje Repozytorium",
     repository_description:
-      " Powinieneś sprawdzić mojego Githuba, gdzie wrzucam mniejsze proejty:",
+      "Powinieneś sprawdzić mojego Githuba, gdzie wrzucam mniejsze projety:",
     form_title: "Formularz kontaktowy",
     form_name: "Przedstaw się, proszę...",
     form_email: "Podaj swój email...",
     form_msg: "Treść wiadomości...",
-    form_btn: "wyślij",
+    form_btn: "Wyślij",
     form_msg1: "Zapomniałeś/aś się przedstawić",
     form_msg2: "Dodaj swój mail !",
     form_msg3: "Sprawdź swój email",

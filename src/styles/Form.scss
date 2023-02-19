@@ -28,7 +28,7 @@
             color: rgb(29, 29, 29);
             border:1px solid rgb(86, 86, 86);
             border-radius: 10px;
-            width: 400px;
+            min-width: 300px;
             max-width: 600px;
         }
         &--input:focus{
@@ -42,7 +42,7 @@
             color: rgb(29, 29, 29);
             border:1px solid rgb(86, 86, 86);
             border-radius: 10px;
-            width: 400px;
+            min-width: 300px;
             max-width: 600px;
         }
         &--textarea:focus{

@@ -69,17 +69,17 @@
                     margin: 0 auto;
 
                     h3{
-                        font-size: 30px;
+                        font-size: 25px;
                          animation: blinkblink infinite;
                         animation-delay: 2s;
                         color: #fff;
-                        margin-top: 10px;
+                        margin-top: 20px;
                         animation: title_startup 2s forwards;
                     }
                     p{
                         font-size: 14px;
                         color: white;
-                        margin: 20px 50px;
+                        margin: 10px 50px;
                         padding: 0 15px;
                     }
                 }
@@ -89,15 +89,15 @@
                     filter: drop-shadow(15px 0px 0px #ff5252);
                     z-index: -1;
                     img{
-                        width: 270px;
+                        width: 250px;
                     }
                 }
         }
     
         &__social-media{
             position: absolute;
-            left: 30px;
-            bottom: 5px;
+            left: 15px;
+            bottom: 0px;
             i {
                 font-size: 25px;
                 margin-bottom: 20px;

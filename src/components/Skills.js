@@ -12,25 +12,25 @@ const Skills = () => {
         </div>
         <div className="skills__logos">
           <div data-aos="fade-up">
-            <i class="fa-brands fa-html5"></i>
+            <i className="fa-brands fa-html5"></i>
           </div>
           <div data-aos="fade-up" data-aos-delay="100">
-            <i class="fa-brands fa-css3"></i>
+            <i className="fa-brands fa-css3"></i>
           </div>
           <div data-aos="fade-up" data-aos-delay="150">
-            <i class="fa-brands fa-sass"></i>
+            <i className="fa-brands fa-sass"></i>
           </div>
           <div data-aos="fade-up" data-aos-delay="200">
-            <i class="fa-brands fa-bootstrap"></i>
+            <i className="fa-brands fa-bootstrap"></i>
           </div>
           <div data-aos="fade-up" data-aos-delay="250">
-            <i class="fa-brands fa-js"></i>
+            <i className="fa-brands fa-js"></i>
           </div>
           <div data-aos="fade-up" data-aos-delay="300">
-            <i class="fa-brands fa-react"></i>
+            <i className="fa-brands fa-react"></i>
           </div>
           <div data-aos="fade-up" data-aos-delay="350">
-            <i class="fa-brands fa-git-alt"></i>
+            <i className="fa-brands fa-git-alt"></i>
           </div>
         </div>
       </section>

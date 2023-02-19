@@ -44,11 +44,11 @@
                     }
                     .link{
                         position: relative;
-
-                        padding: 10px 10px;
+                        min-width: 130px;
+                        padding: 10px 0px;
                         margin: 15px 10px 0px;
                         text-align: center;
-                        font-size: 14px;
+                        font-size: 16px;
                         color: white;
                         text-decoration: none;
                     }
@@ -89,7 +89,7 @@
                 }
             }
             .hide{
-                right: 124px;
+                right: 150px;
             }
         }
 

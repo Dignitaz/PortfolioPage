@@ -9,9 +9,9 @@ import eng from "../images/icons8-united-kingdom-16.png";
 const LanguageBtn = () => {
   const { language, setLanguage, setUsedDictionary } =
     useContext(LanguageContext);
-  useEffect(() => {
-    setNewWalue();
-  }, []);
+  // useEffect((en) => {
+  //   setNewWalue(en);
+  // }, []);
   let newLanguage = () => {
     if (language === "en") {
       setLanguage("pl");
@@ -22,17 +22,31 @@ const LanguageBtn = () => {
     }
   };
 
-  const setNewWalue = async () => {
-    const newValue = dictionaryStart(language);
+  const setNewWalue = async (lang) => {
+    const newValue = dictionaryStart(lang);
     await setUsedDictionary(newValue);
     newLanguage();
   };
 
   return (
     <div className="languagebtn">
-      <button className="languagebtn__btn" onClick={setNewWalue}>
-        <img src={eng} alt="uk flag" /> EN | <img src={pol} alt="polish flag" />{" "}
-        PL | <img src={ger} alt="german flag" /> DE
+      <button
+        className="languagebtn__btn--en"
+        onClick={() => setNewWalue("en")}
+      >
+        <img src={eng} alt="uk flag" /> EN
+      </button>
+      <button
+        className="languagebtn__btn--pl"
+        onClick={() => setNewWalue("pl")}
+      >
+        <img src={pol} alt="polish flag" /> PL
+      </button>
+      <button
+        className="languagebtn__btn--de"
+        onClick={() => setNewWalue("de")}
+      >
+        <img src={ger} alt="german flag" /> DE
       </button>
     </div>
   );

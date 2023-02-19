@@ -7,7 +7,9 @@ const CVButton = () => {
   return (
     <div className="header__cvbutton">
       <div className="header__cvbutton--circle">
-        <i className="fa-solid fa-file-pdf"></i>
+        <a href="facebook.pl">
+          <i className="fa-solid fa-file-pdf"></i>
+        </a>
         <div className="beam">
           <p>{usedDictionary.downloadpdf_text_1}</p>
         </div>
