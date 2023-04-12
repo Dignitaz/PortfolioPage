@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # My portfolio page
 
 Cześć,
