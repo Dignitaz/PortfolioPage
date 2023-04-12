@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # My portfolio page
 
