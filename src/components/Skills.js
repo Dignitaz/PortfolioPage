@@ -1,9 +1,14 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import "../styles/Skills.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Skills = () => {
   const { usedDictionary } = useContext(LanguageContext);
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section id="skills" className="skills">

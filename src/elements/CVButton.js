@@ -7,7 +7,7 @@ const CVButton = () => {
   return (
     <div className="header__cvbutton">
       <div className="header__cvbutton--circle">
-        <a href="facebook.pl">
+        <a href="https://www.mediafire.com/file/iipyaz0d4ywgvpe/Przemys%25C5%2582aw_Sobolewski.pdf/file">
           <i className="fa-solid fa-file-pdf"></i>
         </a>
         <div className="beam">

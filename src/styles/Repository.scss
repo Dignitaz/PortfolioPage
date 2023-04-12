@@ -18,21 +18,37 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-
             margin: 20px;
-            border: 10px solid rgba(253, 31, 11, 0.867);
-            border-radius: 15px;
-            text-align: center;
-            background-color:  rgb(255, 174, 0);
-            &--example{
-                color: black;
-                p{
-                    font-size: 20px;
-                    padding: 0px 20px;
+            // border: 10px solid rgba(253, 31, 11, 0.867);
+            // border-radius: 15px;
+            // text-align: center;
+            // background-color:  rgb(255, 174, 0);
+            &--position{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 20px;
+                margin-bottom: 0px;
+                h4{
+                    text-align: center;
+                    border-bottom: 3px solid rgb(0, 89, 255);
                 }
-                .fa-person-digging{
-                    font-size: 50px;
-                    padding: 10px;
+
+                .positiontext{
+                    width: 80%;
+                    text-align: center;
+                    margin-right: 20px;
+                }
+                .positionimg{
+                    display: flex;
+                    justify-content: center;
+                    width: 80%;
+                    margin-left: 20px;
+                    img{
+                        max-width: 300px;
+                        min-width: 100px;
+                    }
                 }
             }
         }
@@ -76,6 +92,15 @@
                     .fa-person-digging{
                         font-size: 50px;
                         padding: 10px;
+                    }
+                }
+                &--position{
+                    flex-direction: row;
+                    .positiontext{
+                        width: 35%;
+                    }
+                    .positionimg{
+                        width: 35%;
                     }
                 }
             }

@@ -24,8 +24,9 @@ export const dictionary = [
     aboutmesection_description_6: "Yo !",
     skills_title: "Technologies which I'm familiar with, and still learning",
     repository_title: "My Repository",
-    repository_description:
-      "You should check out my Github, where I pasted a lot of smaller projects:",
+    repository_description: "You should check out my Github:",
+    repository_desc1:
+      "More advanced application, which uses the possibilities of React - hooks and routing. Application engage CSS (BEM, SCSS and StyledComponents) and JS. And used basic REST API command's to get data from fake data server.",
     form_title: "Contact Form",
     form_name: "Please, introduce yourself...",
     form_email: "Put your contact email...",
@@ -63,8 +64,9 @@ export const dictionary = [
     aboutmesection_description_6: "Yo !",
     skills_title: "Technologie ,których używam i wciąż się uczę",
     repository_title: "Moje Repozytorium",
-    repository_description:
-      "Powinieneś sprawdzić mojego Githuba, gdzie wrzucam mniejsze projety:",
+    repository_description: "Powinieneś sprawdzić mojego Githuba:",
+    repository_desc1:
+      "Bardziej zaawansowana aplikacja wykorzystująca możliwości Reacta - hooki i routing. Aplikacja angażuje CSS (BEM, SCSS i StyledComponents) oraz JS. I użył podstawowych poleceń REST API, aby uzyskać dane z fałszywego serwera danych.",
     form_title: "Formularz kontaktowy",
     form_name: "Przedstaw się, proszę...",
     form_email: "Podaj swój email...",
@@ -102,8 +104,9 @@ export const dictionary = [
     aboutmesection_description_6: "Yo !",
     skills_title: "Technologien, die ich verwende und die ich noch lerne",
     repository_title: "Mein Repository",
-    repository_description:
-      "Sie sollten sich mein Github ansehen, wo ich kleinere Projekte hochlade:",
+    repository_description: "Sie sollten sich mein Github ansehen:",
+    repository_desc1:
+      "Fortgeschrittenere Anwendung, die die Möglichkeiten von React nutzt - Hooks und Routing. Anwendungsbezogenes CSS (BEM, SCSS und StyledComponents) und JS. Und verwendete grundlegende REST-API-Befehle, um Daten von einem gefälschten Datenserver abzurufen.",
     form_title: "Kontakt Formular",
     form_name: "Stelle dich bitte vor...",
     form_email: "Gib mir deine Email...",

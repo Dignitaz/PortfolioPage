@@ -1,12 +1,18 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import "../styles/Header.scss";
 import lola from "../images/nobcg_lola.png";
 import HeaderButton from "../elements/HeaderButton";
 import CVButton from "../elements/CVButton";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Header = (props) => {
   const { usedDictionary } = useContext(LanguageContext);
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div id="main" className="header">
       <div className="header__layout">
